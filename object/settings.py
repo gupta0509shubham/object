@@ -56,7 +56,7 @@ ROOT_URLCONF = 'object.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['%s/object_ui/static/' % (BASE_DIR)],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

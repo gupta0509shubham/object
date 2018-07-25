@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" ng-app="objectApp">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+</head>
+<body>
+    <div ui-view>
+
+    </div>
+
+<script src="{% static 'assets/js/node_modules/angular/angular.min.js'%}"></script>
+<script src="{% static 'assets/js/node_modules/angular-ui-router/release/angular-ui-router.min.js'%}"></script>
+<!--Project Specific Files-->
+<script src="{% static 'app/app.js'%}"></script>
+<script src="{% static 'app/components/object/app.object.js'%}"></script>
+<script src="{% static 'app/components/object/controllers/object-controller.js'%}"></script>
+</body>
+</html>
