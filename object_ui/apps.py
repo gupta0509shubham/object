@@ -4,4 +4,4 @@ from django.apps import AppConfig
 
 
 class ObjectuiConfig(AppConfig):
-    name = 'objectui'
+    name = 'object_ui'

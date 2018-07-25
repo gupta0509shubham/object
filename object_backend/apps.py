@@ -4,4 +4,4 @@ from django.apps import AppConfig
 
 
 class ObjectserviceConfig(AppConfig):
-    name = 'objectservice'
+    name = 'object_backend'
